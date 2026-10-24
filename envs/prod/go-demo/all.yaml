@@ -18,11 +18,11 @@ spec:
     spec:
       containers:
         - name: web
-          image: ghcr.io/cgsunshine/go-demo:prod-faa5b67
+          image: ghcr.io/cgsunshine/go-demo:prod-1dddbc8
           imagePullPolicy: IfNotPresent
           env:
             - name: APP_VERSION
-              value: "prod-faa5b67"
+              value: "prod-1dddbc8"
             - name: APP_ENV
               value: "prod"
           ports:
