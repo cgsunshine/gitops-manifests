@@ -18,11 +18,11 @@ spec:
     spec:
       containers:
         - name: web
-          image: go-demo:dev-1
+          image: go-demo:dev-2
           imagePullPolicy: Never
           env:
             - name: APP_VERSION
-              value: "dev-1"
+              value: "dev-2"
             - name: APP_ENV
               value: "dev"
           ports:
